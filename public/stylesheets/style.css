@@ -1,0 +1,127 @@
+#posts_box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.post{
+    width:300px;
+    margin:5px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(252, 240, 224);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  color: #535353;
+  font-family: 'Open Sans', sans-serif;
+  margin: 8px;
+  font-size: 16px;
+  background-color: rgb(243, 243, 243);
+}
+
+/* NAVBAR */
+/* Defines navbar logo style */
+.navbar-brand {
+  font-size: 2rem;
+  margin: 0.5em;
+  color: black;
+  font-weight: bold;
+}
+
+/* Defines navbar link style*/
+.nav-link {
+  margin-left: auto;
+  padding-right: 0.25rem;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/* general styling for navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #CBD9E7;
+  padding: .75rem;
+}
+
+/* links in nav bar floats to the right */
+.navbar-nav {
+  float: right;
+}
+
+.nav-item {
+  padding-right: 0.5rem;
+}
+
+/* MAIN */
+/* padding for the main section */
+main {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.search {
+  padding: 1rem;
+}
+
+h1 {
+  color:#535353;
+  padding: 1rem;
+}
+
+/* FILTER AND SORT SECTION */
+/* defines filter and sort option button styling */
+main.btn {
+  background-color: #555F68;
+  color: white;
+}
+
+/* APARTMENT CARDS */
+/* Defines card title font and padding*/
+h2 {
+  font-size: 1.4rem;
+}
+
+div strong {
+  margin-top: 0.5rem;
+}
+
+/* positions the bookmark button */
+button.bookmark {
+  float: right;
+}
+
+/* defines the size of the bookmark button */
+.bi-bookmark-heart-fill {
+  font-size: 2rem;
+}
+
+/* defines what the book mark would look like selected */
+.bookmarked{
+  font-size: 2rem;
+  color: yellow;
+}
+
+/* footer styling */
+footer {
+  padding: 0.5rem;
+  background-color: #555F68;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
+/* footer link styling */
+footer a {
+  color: white;
+  text-decoration: none;
+}
