@@ -1,7 +1,6 @@
-# INFO441 Project UPTOWN
+# UPTOWN
 
-## INFO 441 Final Project Proposal
-### INFO441 Team5 
+## Project Proposal
 ### Team members: Jessica Liu, Miranda Ma, Whitney Zhang, Yi Zhong
  
 ## Project Description 
